@@ -1,9 +1,10 @@
+import About from "./Components/About";
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <>
+      <About />
+    </>
   );
 }
 

@@ -58,7 +58,7 @@ header nav ul li a{
 
 .hero{
   height: 300px;
-  background-image: url("../images/hero.jpg");
+  background-image: url("./assets/images/hero.jpg");
   background-position: center;
   background-size: cover;
   display: flex;
@@ -186,35 +186,30 @@ header nav ul li a{
 
 /* background image added to each project */
 .run-buddy{
-  background-image: url("../images/run-buddy.jpg");
+  background-image: url("./assets/images/run-buddy.jpg");
   width: 93%;
 }
 
 
 
 .horiseon{
-  background-image: url("../images/Horiseon.png");
+  background-image: url("./assets/images/Horiseon.png");
   width: 45%;
   
 }
 
 .robot-gladiators{
-  background-image: url("../images/robot-gladiator.jpg");
+  background-image: url("./assets/images/robot-gladiator.jpg");
   width: 45%;
 }
 
 .covid-now{
-  background-image: url("../images/covid-now.jpg");
-  width: 45%;
-}
-
-.surf-report{
-  background-image: url("../images/surf-report.jpg");
+  background-image: url("./assets/images/covid-now.jpg");
   width: 45%;
 }
 
 .live-out-doors {
-  background-image: url("../images/live-out-doors.png");
+  background-image: url("./assets/images/live-out-doors.png");
   width: 45%;
 }
 
