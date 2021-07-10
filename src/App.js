@@ -1,4 +1,5 @@
 import About from "./Components/About";
+import Contact from "./Components/Contact";
 import Nav from "./Components/Nav";
 import Portfolio from "./Components/Portfolio";
 
@@ -8,6 +9,7 @@ function App() {
       <Nav />
       <About />
       <Portfolio />
+      <Contact />
     </>
   );
 }
