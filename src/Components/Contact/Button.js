@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Button = () => {
     return (
@@ -6,6 +6,6 @@ const Button = () => {
             <button className="btn btn-primary" type="submit">Submit</button>
         </div>
     )
-}
+};
 
-export default Button
+export default Button;

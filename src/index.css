@@ -42,7 +42,7 @@ header nav ul li {
   list-style: none;
 }
 
-header nav ul li a{
+.section-name {
   color:  rgb(156, 232, 233);
   margin: 0 10px;
   font-weight: lighter;
@@ -50,6 +50,14 @@ header nav ul li a{
   text-decoration: none;
   padding-bottom: 3px;
   border-bottom: 3px solid rgb(156, 232, 233) ;
+}
+
+.navActive {
+  color: var(--secondary);
+}
+
+nav  li {
+  cursor: pointer;
 }
 
 /* header style ends */

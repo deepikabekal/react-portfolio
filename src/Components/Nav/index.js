@@ -1,26 +1,28 @@
 import React from 'react'
 
-const Nav = () => {
+const Nav = (props) => {
+
+    const {
+        sections = [],
+        currentSection,
+        setCurrentSection
+    }  = props;
+
     return (
-        <header>
+        <>
             <h1>Deepika Bekal</h1>
             <nav>
                 <ul>
-                    <li>
-                        <a href="#about-me">About Me</a>
-                    </li>
-                    <li>
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="#contact-me">Contact</a>
-                    </li>
-                    <li>
-                        <a href="#resume">Resume</a>
-                    </li>
+                    {sections.map((sectionName) => (
+                        <li className = {` section-name ${currentSection === sectionName && 'navActive'}`} key = {sectionName}>
+                            <span onClick = {() => setCurrentSection(sectionName)}>
+                                {sectionName}
+                            </span>
+                        </li>
+                    ))}
                 </ul>
             </nav>
-        </header>
+        </>
     )
 }
 
