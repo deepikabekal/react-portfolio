@@ -20,7 +20,11 @@ function App() {
           currentSection = {currentSection}
         >
         </Nav>
-      </header>     
+      </header>
+      <main>
+        <Contact></Contact>
+      
+      </main>     
       
       <footer>
         <Footer />
