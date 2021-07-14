@@ -1,7 +1,7 @@
 main {
 	margin: 0 auto;
 	max-width: 90%;
-  padding: 50px 30px;
+  padding: 20px 30px;
 }
 
 :root {
@@ -194,7 +194,7 @@ header nav ul li {
   text-align: center;
   margin: 0px 80px;
   color: var(--secondary);
-  font-size: 22px;
+  font-size: 20px;
 }
 
 footer {
@@ -205,6 +205,11 @@ footer {
   display: flex;
   justify-content: center;
   color : black;
+  margin-bottom: 50px;
   /* position: absolute;
   align-items: center; */
+}
+
+.fab {
+  padding : 0 15px;
 }
