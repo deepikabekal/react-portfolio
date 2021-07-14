@@ -6,7 +6,7 @@ main {
 
 :root {
   --primary: #85FFBD;
-  --secondary: rgb(19, 42, 19);
+  --secondary: rgb(30, 96, 145);
   --tertiary: #B12704;
   --light: #fafafa;
   --dark: #000000;
@@ -28,11 +28,13 @@ body {
 
 
 body {
-  background-color: var(--primary);
-  background-image: linear-gradient(179deg, #85FFBD 0%, #FFFB7D 100%);
+  /* background-color: var(--primary);
+  background-image: linear-gradient(179deg, #85FFBD 0%, #FFFB7D 100%); */
+  /* background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%); */
+  /* background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 
 }
-
 /*header style begins*/
 header{
   padding : 15px 50px;
@@ -42,7 +44,7 @@ header{
 }
 
 header h1{
-  color:rgb(30, 96, 145);
+  color : var(--secondary);
   /* background: rgb(156, 232, 233); */
   /* font-size: 35px; */
   padding: 5px;
@@ -61,12 +63,28 @@ header nav ul li {
 }
 
 .section-name {
-  color:  rgb(30, 96, 145);
+  color : var(--secondary);
   margin: 0 10px;
-  font-weight: lighter;
+  font-weight:normal;
   font-size : 30px;
   text-decoration: none;
   padding-bottom: 3px;
   border-bottom: 3px solid rgb() ;
   cursor: pointer;
+}
+
+/* .navActive {
+  color: ;
+} */
+
+footer {
+  bottom: 5%;
+  width: 100%;
+  height: 2.5rem;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  color : black;
+  position: absolute;
+  align-items: center;
 }
