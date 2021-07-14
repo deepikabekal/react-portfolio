@@ -11,6 +11,23 @@ function App() {
   const [sections] = useState(['About', 'Portfolio', 'Contact', 'Resume']);
   const [currentSection, setCurrentSection] = useState (sections[0]);
 
+  function renderSection () {
+
+    switch (currentSection) {
+      case 'About' : 
+        return <About />;
+      case 'Portfolio' : 
+        return <Portfolio />
+      case 'Contact' : 
+        return <Contact />
+      case 'Resume' :
+          return <Resume />
+      default :
+        return <About />
+
+    }
+  }
+
   return (
     <>
       <header>
@@ -22,8 +39,7 @@ function App() {
         </Nav>
       </header>
       <main>
-        <Contact></Contact>
-      
+        {renderSection()}      
       </main>     
       
       <footer>
