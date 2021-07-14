@@ -43,8 +43,8 @@ const Contact = () => {
 
 
     return (
-        <section>
-            <h3>Contact me</h3>
+        <section id="contact">
+            <h3>Contact</h3>
             <form id="contact-form" onSubmit = {handleSubmit}>
                 <div class="form-group">
                     <label htmlFor="name">Name:</label>
@@ -59,11 +59,11 @@ const Contact = () => {
                     <textarea name="message" className="form-control" rows="5" defaultValue = {message} onBlur = {handleChange} />
                 </div>
                 {errorMessage && (
-                    <div>
+                    <div id="error-message">
                         <p className="error-text">{errorMessage}</p>
                     </div>
                 )}
-                <button className="btn btn-primary" type="submit">Submit</button>
+                <button className="btn btn-grad" type="submit">Submit</button>
             </form>
         </section>
     )
