@@ -10,7 +10,7 @@ import Resume from "./Components/Resume";
 function App() {
   const [sections] = useState(['About', 'Portfolio', 'Contact', 'Resume']);
   const [currentSection, setCurrentSection] = useState (sections[0]);
-
+  
   function renderSection () {
 
     switch (currentSection) {

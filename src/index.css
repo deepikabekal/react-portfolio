@@ -1,37 +1,55 @@
-*{
-  margin: 0;
-  padding: 0;
+main {
+	margin: 0 auto;
+	max-width: 90%;
+  padding: 50px 30px;
+}
+
+:root {
+  --primary: #85FFBD;
+  --secondary: rgb(19, 42, 19);
+  --tertiary: #B12704;
+  --light: #fafafa;
+  --dark: #000000;
+  --darker: #111111;
+  --error: rgb(228, 46, 1);
+  --spacing-one: calc(1rem * 0.5);
+  --spacing-two: calc(1rem);
+  --spacing-five: calc(2.5rem);
+}
+
+* {
   box-sizing: border-box;
 }
 
-body{
-  background:snow;
+html,
+body {
+  min-height: 100%;
 }
 
-p {
-  font-family:Arial, Helvetica, sans-serif;
- 
+
+body {
+  background-color: var(--primary);
+  background-image: linear-gradient(179deg, #85FFBD 0%, #FFFB7D 100%);
+
 }
+
 /*header style begins*/
 header{
   padding : 15px 50px;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  background-color:rgb(36, 35, 37);
-  
+  flex-wrap: wrap;  
 }
 
 header h1{
-  color:rgb(36, 35, 37);
-  background: rgb(156, 232, 233);
-  font-size: 35px;
+  color:rgb(30, 96, 145);
+  /* background: rgb(156, 232, 233); */
+  /* font-size: 35px; */
   padding: 5px;
+  margin-bottom: 1rem;
 }
-
 header nav {
   text-align: center;
-  padding-top: 15px;  
 }
 
 header nav ul li {
@@ -43,363 +61,12 @@ header nav ul li {
 }
 
 .section-name {
-  color:  rgb(156, 232, 233);
+  color:  rgb(30, 96, 145);
   margin: 0 10px;
   font-weight: lighter;
-  font-size : 1.7vw;
+  font-size : 30px;
   text-decoration: none;
   padding-bottom: 3px;
-  border-bottom: 3px solid rgb(156, 232, 233) ;
-}
-
-.navActive {
-  color: var(--secondary);
-}
-
-nav  li {
+  border-bottom: 3px solid rgb() ;
   cursor: pointer;
 }
-
-/* header style ends */
-
-/* hero section begins */
-
-.hero{
-  height: 300px;
-  background-image: url("./assets/images/hero.jpg");
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
- 
-}
-
-.hero h2{
-  color: rgb(36, 35, 37);
-  background-color:  rgb(156, 232, 233);
-  align-self: flex-end;
-  margin: 0 40px 20px 0;
-  padding: 5px;
-  font-size: 27px; 
-
-}
-/* style for photo */
-.hero-img img{
-  width: 300px;
-  height: 300px;
-  padding: 20px 40px;
-  margin-left: 12px;
-}
-
-
-/* hero section ends */
-
-
-
-/* About Me section style begins */
-
-
-.aboutme-header, .work-header,.contactme-header,.resume-header{
-  font-size: 25px;
-  padding: 0 8px;
-  border-right: 3px solid rgb(20, 3, 116);
-  text-align: right;
-  color: rgb(20, 3, 116) ;
-}
-
-.aboutme-content{
-  color: rgb(20, 3, 116) ;
-  padding-left: 50px;
-  line-height: 1.3;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.about-me p span{
-  font-size: 20px;
-  
-  
-}
-
-/* About me section ends */
-
-/* Work section begins */
-
-.work, .about-me{
-  display: flex;
-  justify-content: space-between;
-  padding: 35px 50px 35px 50px;
-}
-
-/*work section heading styles*/
-.work-header{
-  
-  margin: 0 10px;
-  flex-wrap: wrap;
-}
-
-
-/* work content box styles */
-
-.work{
-  display: flex;
-  justify-content: space-between;
-  padding: 35px 50px 35px 50px;
-}
-
-.work-content{
-  display: flex;
-  justify-content:space-evenly;
-  flex-wrap: wrap;
-  flex: 1;
-  padding: 5px 20px 5px 20px;
-}
-
-.work-content a div h3, .work-content a div h4{
-  padding: 2px;
-}
-
-/* Styles for each project box */
-.work-projects{
-  background-size: cover;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;    
-  height: 150px; 
-  text-decoration: none;
-  padding-bottom: 10px;
-  margin-top: 20px;    
-  border: 3px solid rgb(156, 232, 233);
-  filter: brightness(75%);
-  transition: 1s;
- 
-}  
-/* when hovered over the image, it will become bigger and brighter than  others */
-.work-projects:hover{
-  filter: brightness(100%);
-  height: 200px;
-  width: 48%;
-}
-
-.run-buddy:hover{
-  width: 100%;
-}
-/* hover section end*/
-
-.work-projects div{
-  background: rgb(156, 232, 233);
-  color: rgb(20, 3, 116);
-}
-  
-
-/* background image added to each project */
-.run-buddy{
-  background-image: url("./assets/images/run-buddy.jpg");
-  width: 93%;
-}
-
-
-
-.horiseon{
-  background-image: url("./assets/images/Horiseon.png");
-  width: 45%;
-  
-}
-
-.robot-gladiators{
-  background-image: url("./assets/images/robot-gladiator.jpg");
-  width: 45%;
-}
-
-.covid-now{
-  background-image: url("./assets/images/covid-now.jpg");
-  width: 45%;
-}
-
-.live-out-doors {
-  background-image: url("./assets/images/live-out-doors.png");
-  width: 45%;
-}
-
-/*work section ends */
-
-/* Contact Me section begins */
-.contact-me{
-  display: flex;
-  padding: 35px 0px 35px 0px;
-}
-
-
-.contactme-header{
- 
-  padding: 0 8px;
-  width: 10.6rem;
-}
-
-.contactme-content{
-  display: inline-flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 75%;
-}
-
-.contactme-content a{
-  font-size: 18px;
-  color: rgb(20, 3, 116);
-  margin-left: 50px;
-  text-decoration: none;
-  padding-bottom: 3px;
-  border-bottom: 3px solid rgb(20, 3, 116) ;
-}
-
-
-
-/* contact me section ends */
-
-/* Resume section begins */
-
-.resume{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 35px 50px 35px 0px;
-  
-}
-
-.resume-header{
- margin-left: 22px;
-}
-
-.resume-content{
-  display: flex;
-  justify-content: center;
-  width: 80%;
-  padding: 20px 0 35px 0;
-   
-}
-
-.resume-content iframe {
-  height: 500px;
-  width: 95%;
-  
-}
-
-/* end of resume section */
-
-/* Media Query for smaller desktop screens and mobile phones */
-@media screen and (max-width: 980px) {
-
-  header {
-      padding-bottom: 0;
-  justify-content: center;
-  position: relative;
-  }
-
-  header h1{
-      width: 100%;
-      text-align: center;
-      font-size: 70px;
-  }
-
-  header nav ul {
-      margin-top: 20px;
-      width: 100%;
-      justify-content: center;
-    }
-  
-    header nav ul li a {
-      font-size: 40px;
-    }
-
-    .hero{
-        height: 600px;
-        padding-bottom: 50px;
-        position: relative;
-    }
-
-    .hero h2{
-       position: absolute; 
-       font-size: 50px;
-       top:500px ;
-       left: 350px;
-        
-    }
-
-    .hero-img img{
-        position: absolute;
-        top: 50px;
-        height: 400px;
-        width: 400px;
-    }
-
-    .about-me, .contact-me, .work , .resume{
-        display:block;
-    }
-
-    .aboutme-header, .work-header, .contactme-header, .resume-header{
-      width: 100%;        
-      padding-bottom: 6px;
-      border-bottom: 3px solid rgb(20, 3, 116);
-      text-align: center;
-      border-right: none;
-      font-size: 50px;
-      padding: 0 0 0 0;
-  
-    }
-
-    .aboutme-content, .contactme-content, .resume-content{
-      padding-left: 0;
-      line-height: 1.3;
-      text-align: center;
-      padding-top: 25px;
-      display: block;
-      align-items: center;
-      width: 100%;
-    }
-
-    .work-projects{
-        width: 100%;
-        height: 400px;
-    }
-
-    .work-projects:hover{
-      filter: brightness(100%);
-      width: 110%;
-      height: 450px;
-      transition: 1s;
-  }
-
-    .work-projects div h3, .work-projects div h4{
-        font-size: 40px;
-    }
-
-    .contact-me{
-        padding: 0 30px;
-    }
-
-    
-
-    .contactme-content a{
-        font-size: 50px;  
-        margin-left: 25px;                  
-    }
-    .resume-content{
-      width: 100%;
-      padding-left: 30px;
-
-  }
-  
-  
-    
-
-    .resume-content iframe{
-      flex: 1 100%;
-      width: 100%;
-      height: 600px;
-    }
-  
-}
-
-
-
-
