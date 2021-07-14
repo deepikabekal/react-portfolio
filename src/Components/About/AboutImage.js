@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import photo from '../../assets/images/photo.jpg'
 
 const AboutImage = () => {
     return (
         <div>
-            <img src = "./assets/images/photo.jpg" />
+            <img id = "img" src = {photo} />
         </div>
     )
 }
