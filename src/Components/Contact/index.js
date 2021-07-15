@@ -44,7 +44,7 @@ const Contact = () => {
 
     return (
         <section id="contact">
-            {/* <h3>Contact</h3> */}
+            <h3>Contact</h3>
             <form id="contact-form" onSubmit = {handleSubmit}>
                 <div class="form-group">
                     <label htmlFor="name">Name:</label>
