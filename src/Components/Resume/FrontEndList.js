@@ -7,9 +7,9 @@ import HandlebarsIcon from './HandlebarsIcon';
 
 const FrontEndList = () => {
     return (
-        <div>
-            <h3>Front-End Proficiencies</h3>
-            <div>
+        <div id="front-end">
+            <h3>Front-End</h3>
+            <div className="icons">
                 <FaHtml5 size={50}></FaHtml5>
                 <DiCss3 size={50}></DiCss3>
 				<SiJquery size={50}></SiJquery>

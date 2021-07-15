@@ -8,7 +8,7 @@ main {
   --primary: #85FFBD;
   /* --secondary: rgb(30, 96, 145); */
   --secondary: rgb(19, 69, 156);
-  --tertiary: #B12704;
+  --tertiary: rgb(0, 52, 89);
   --light: #fafafa;
   --dark: #000000;
   --darker: #111111;
@@ -229,6 +229,42 @@ header nav ul li {
 }
 
 /* resume section styles */
+#icon-list{
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    margin: 100px 0;
+    text-align: center;
+    color: var(--secondary);
+
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+#front-end, #back-end {
+  display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.icons svg {
+  padding: 5px;
+}
+
+#resume-btn a{
+  color: var(--tertiary);
+  font-weight: bold;
+}
+
+#resume button{
+  margin : auto;
+}
+
 
 /* footer section styles */
 footer {

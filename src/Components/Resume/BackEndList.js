@@ -8,24 +8,22 @@ import {
 } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { DiMysql, DiGit } from "react-icons/di";
-import { IoLogoPwa } from "react-icons/io";
-
 
 const BackEndList = () => {
     return (
-        <div>
-            <h3>Back-End Proficiencies</h3>
-            <div>
-                <DiMysql size={50}></DiMysql>
+        <div id="back-end">
+            <h3>Back-End</h3>
+            <div className="icons">
                 <FaNodeJs size={50}></FaNodeJs>
 				<SiJest size={50}></SiJest>
+                <DiMysql size={50}></DiMysql>
                 <SiMongodb size={50}></SiMongodb>
                 <SiGraphql size={50}></SiGraphql>
-                <ExpressIcon></ExpressIcon>
                 <DiGit size={50}></DiGit>
+                <ExpressIcon></ExpressIcon>
             </div>
         </div>
     )
 }
 
-export default BackEndList
+export default BackEndList;

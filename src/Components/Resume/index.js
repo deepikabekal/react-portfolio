@@ -5,13 +5,15 @@ import resumePDF from '../../assets/files/resume.pdf'
 
 const Resume = () => {
     return (
-        <div>
-            <h1>Resume</h1>
+        <div id="resume">
+            {/* <h1>Resume</h1> */}
+            <div id="icon-list">
+                <FrontEndList></FrontEndList>
+                <BackEndList></BackEndList>
+            </div>   
             <h2>
-                <a href = {resumePDF} download = "DeepikeBekalResume.pdf">Download Resume</a>
-            </h2>
-            <FrontEndList></FrontEndList>
-            <BackEndList></BackEndList>
+                <button className="btn btn-grad" id="resume-btn"><a href = {resumePDF} download = "DeepikeBekalResume.pdf">Download My Resume</a></button>
+            </h2>         
         </div>
     )
 }
