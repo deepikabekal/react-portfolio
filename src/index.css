@@ -27,6 +27,14 @@ body {
   min-height: 100%;
 }
 
+h1, h2, h3, h4, p, .fab{
+  color : var(--secondary);
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
 
 body {
   /* background-color: var(--primary);
@@ -103,32 +111,11 @@ header nav ul li {
   cursor: pointer;
 }
 
-
-/* background image added to each project */
-
-
-
-
-.horiseon{
-  background-image: url("./assets/images/Horiseon.png");
-  width: 45%;
-  
+.card-git {
+  text-align: center;
+  display: block;
 }
 
-.robot-gladiators{
-  background-image: url("./assets/images/robot-gladiator.jpg");
-  width: 45%;
-}
-
-.covid-now{
-  background-image: url("./assets/images/covid-now.jpg");
-  width: 45%;
-}
-
-.live-out-doors {
-  background-image: url("./assets/images/live-out-doors.png");
-  width: 45%;
-}
 
 /*portfolio section ends */
 
@@ -148,7 +135,6 @@ header nav ul li {
   align-items: center;
   text-align: center;
   margin: 0px 80px;
-  color: var(--secondary);
   font-size: 20px;
 }
 
@@ -158,9 +144,9 @@ header nav ul li {
   font-size: 20px;
 }
 
-#contact h3 {
+/* #contact h3 {
   text-align: center;
-}
+} */
 
 .btn-grad {background-image: linear-gradient(to right, #36D1DC 0%, #5B86E5  51%, #36D1DC  100%)}
 .btn-grad {
@@ -200,10 +186,10 @@ header nav ul li {
     color: var(--secondary);
 }
 
-#resume h3 {
+/* #resume h3 {
   color : var(--secondary);
   text-align: center;
-}
+} */
 .icons {
   display: flex;
   justify-content: space-between;
@@ -241,7 +227,6 @@ footer {
   padding: 5px;
   display: flex;
   justify-content: center;
-  color : black;
   margin-top: auto;
   margin: 10px;
   /* position: absolute;

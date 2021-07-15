@@ -15,14 +15,22 @@ const ProjectContainer = () => {
             name : 'Weather Dashboard',
             description : "The application provides the weather details and the 5-day forecast for the city that the user enters in the search field. It also lists the city names in the search history.",
             tech : "HTML, CSS, Javascript",
-            imageName : 'weather.jpg',
+            imageName : 'Weather.png',
             webpage : "https://deepikabekal.github.io/Weather-Dashboard/.",
             github : "https://github.com/deepikabekal/Weather-Dashboard"
 
         },
         {
+            name : 'Work Day Scheduler',
+            description : "A work day scheduler that allows the user to add tasks/events for each hour (9am-5pm). This application allows the user to manage time effectively.",
+            tech : "HTML, CSS, Javascript/JQuery, Moment.js",
+            imageName : 'scheduler.png',
+            webpage : "https://deepikabekal.github.io/Work-Day-Scheduler/",
+            github : "https://github.com/deepikabekal/Work-Day-Scheduler"
+        },
+        {
             name : 'Covid Now',
-            description : "Covid-Now is an application that provides Covid-19 information and latest Covid-19 news for the country that the user will enter in the Search box.",
+            description : "Covid-Now is an application that provides Covid-19 information and latest Covid-19 news for the country that the user will enter in the Search box. (Collaborative project)",
             tech : "HTML, CSS, Javascript, Jquery, Server side API",
             imageName : 'covid-now.jpg',
             webpage : "https://deepikabekal.github.io/covid-now-version2/",
@@ -35,27 +43,32 @@ const ProjectContainer = () => {
             imageName : 'code-quiz.jpg',
             webpage : "https://deepikabekal.github.io/Code-Quiz/",
             github : "https://github.com/deepikabekal/Code-Quiz"
-        }
+        },
+        {
+            name : 'Live The Outdoors',
+            description : "An application where the user browse through various nature trails. User can get details about the selected trail and find the embedded Google Maps for it. User can also add trails to favorites and mark them as completed. (collaborative project)",
+            tech : "Bootstrap/CSS, Javascript/JQuery, Node.js, Express.js, Sequelize/SQL, Bcrypt, Connect-session-sequelize, Express Session",
+            imageName : 'live-out-doors.png',
+            webpage : "https://vast-retreat-28547.herokuapp.com/",
+            github : "https://github.com/luluvann/live-the-outdoors"
+        },
     ];
 
-    function getWebPage(e) {
 
-    }
     return (
             <>
                 {projectList.map((item) => (
-                    <div class="col mb-4" id="hello">
+                    <div class="col mb-4" id="card-box">
                         <div className="card h-100">
                             <a href= {item.webpage} target="_blank">
-                                <img src={require(`../../assets/images/${item.imageName}`).default} className="image img-thumbnail" alt="project example" onClick={getWebPage}/>
+                                <img src={require(`../../assets/images/${item.imageName}`).default} className="image img-thumbnail" alt="project example"/>
                             </a>
                             <div className="card-body">
                                 <h5 className="card-title">{item.name}</h5>
                                 <p className="card-text">{item.description}</p>
-                                <div>
                                 <p className="card-text">{item.tech}</p>
-                                <a href={item.github} target="_blank"><i className="fab fa-github fa-2x"></i></a>
-                                </div>
+                                <a href={item.github} target="_blank"><i className="fab fa-github card-git fa-2x"></i></a>
+
                             </div>
                         </div>
                     </div>
