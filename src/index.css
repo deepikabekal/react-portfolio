@@ -83,84 +83,29 @@ header nav ul li {
   border-radius: 10px;
   padding: 5px;
 }
-/* .navActive {
-  color: ;
-} */
 
 /* portfolio section begins */
-
-.work {
-  display: flex;
-  justify-content: space-between;
-  padding: 35px 50px 35px 50px;
+.card {
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  box-shadow: 5px 5px 5px lightgray; 
 }
 
-/*work section heading styles*/
-.work-header{
-  
-  margin: 0 10px;
-  flex-wrap: wrap;
+.image {
+    position: relative;
+    width: 500px;
+    height: 340px;
+    transition: 1s;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 }
 
-
-/* work content box styles */
-
-.work{
-  display: flex;
-  justify-content: space-between;
-  padding: 35px 50px 35px 50px;
+.image:hover {
+  filter: brightness(75%);    
+  cursor: pointer;
 }
 
-.work-content{
-  display: flex;
-  justify-content:space-evenly;
-  flex-wrap: wrap;
-  flex: 1;
-  padding: 5px 20px 5px 20px;
-}
-
-.work-content a div h3, .work-content a div h4{
-  padding: 2px;
-}
-
-/* Styles for each project box */
-.work-projects{
-  background-size: cover;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;    
-  height: 150px; 
-  text-decoration: none;
-  padding-bottom: 10px;
-  margin-top: 20px;    
-  border: 3px solid rgb(156, 232, 233);
-  filter: brightness(75%);
-  transition: 1s;
- 
-}  
-/* when hovered over the image, it will become bigger and brighter than  others */
-.work-projects:hover{
-  filter: brightness(100%);
-  height: 200px;
-  width: 48%;
-}
-
-.run-buddy:hover{
-  width: 100%;
-}
-/* hover section end*/
-
-.work-projects div{
-  background: rgb(156, 232, 233);
-  color: rgb(20, 3, 116);
-}
-  
 
 /* background image added to each project */
-.run-buddy{
-  background-image: url("./assets/images/run-buddy.jpg");
-  width: 93%;
-}
+
 
 
 
@@ -301,9 +246,10 @@ footer {
   margin: 10px;
   /* position: absolute;
   align-items: center; */
+  cursor: pointer;
   
 }
 
-.fab {
+.footer-icon {
   padding : 0 15px;
 }
