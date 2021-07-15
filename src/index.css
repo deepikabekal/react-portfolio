@@ -6,7 +6,8 @@ main {
 
 :root {
   --primary: #85FFBD;
-  --secondary: rgb(30, 96, 145);
+  /* --secondary: rgb(30, 96, 145); */
+  --secondary: rgb(19, 69, 156);
   --tertiary: #B12704;
   --light: #fafafa;
   --dark: #000000;
@@ -227,6 +228,7 @@ header nav ul li {
   padding: 0 15px;
 }
 
+/* resume section styles */
 
 /* footer section styles */
 footer {
