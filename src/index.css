@@ -256,13 +256,17 @@ header nav ul li {
   padding: 5px;
 }
 
-#resume-btn a{
+#resume-btn{
   color: var(--tertiary);
   font-weight: bold;
 }
 
 #resume button{
   margin : auto;
+}
+
+#resume h2 a {
+  text-decoration: none;
 }
 
 

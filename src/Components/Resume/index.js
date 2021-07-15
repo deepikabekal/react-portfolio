@@ -12,7 +12,7 @@ const Resume = () => {
                 <BackEndList></BackEndList>
             </div>   
             <h2>
-                <button className="btn btn-grad" id="resume-btn"><a href = {resumePDF} download = "DeepikeBekalResume.pdf">Download My Resume</a></button>
+                <a href = {resumePDF} download = "DeepikeBekalResume.pdf"><button className="btn btn-grad" id="resume-btn">Download My Resume</button></a>
             </h2>         
         </div>
     )
