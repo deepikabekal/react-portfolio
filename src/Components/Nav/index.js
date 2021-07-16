@@ -10,7 +10,11 @@ const Nav = (props) => {
 
     return (
         <>
+            <div>
             <h1>Deepika Bekal</h1>
+            {/* <h6>Full Stack Web Developer</h6> */}
+            </div>            
+
             <nav>
                 <ul>
                     {sections.map((sectionName) => (

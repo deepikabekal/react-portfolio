@@ -36,6 +36,12 @@ h3 {
   margin-bottom: 20px;
 }
 
+/* h6 {
+  color: var(--secondary);
+  text-align: center;
+  
+} */
+
 body {
   /* background-color: var(--primary);
   background-image: linear-gradient(179deg, #85FFBD 0%, #FFFB7D 100%); */
@@ -52,13 +58,14 @@ header{
   flex-wrap: wrap;  
 }
 
-header h1{
+/* header h1{
   color : var(--secondary);
-  /* background: rgb(156, 232, 233); */
-  /* font-size: 35px; */
+  background: rgb(156, 232, 233); 
+  font-size: 35px;
   padding: 5px;
   margin-bottom: 1rem;
-}
+} */
+
 header nav {
   text-align: center;
 }
@@ -101,7 +108,7 @@ header nav ul li {
 .image {
     position: relative;
     width: 500px;
-    height: 340px;
+    height: 300px;
     transition: 1s;
     background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 }
