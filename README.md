@@ -15,7 +15,7 @@ My professional full stack web developer portfolio using React.
 https://deepikabekal.github.io/react-portfolio/
 
 ## Screenshot
-<img src="public/images/screenshot.png" width=650 height = 500>
+<img src="src/assets/images/screenshot.png" width=650 height = 500>
 
 ## Technologies Used
 ### Front-end
