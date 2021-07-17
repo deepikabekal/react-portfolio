@@ -4,7 +4,7 @@ import photo from '../../assets/images/photo.jpg'
 const AboutImage = () => {
     return (
         <div>
-            <img id = "img" src = {photo} />
+            <img id = "img" src = {photo} alt="Portfolio Author"/>
         </div>
     )
 }

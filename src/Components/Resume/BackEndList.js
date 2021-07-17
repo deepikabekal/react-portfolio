@@ -12,7 +12,7 @@ import { DiMysql, DiGit } from "react-icons/di";
 const BackEndList = () => {
     return (
         <div id="back-end">
-            <h3>Back-End</h3>
+            <h4>Back-End</h4>
             <div className="icons">
                 <FaNodeJs size={50}></FaNodeJs>
 				<SiJest size={50}></SiJest>

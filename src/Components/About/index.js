@@ -5,7 +5,7 @@ import AboutImage from './AboutImage';
 
 const About = () => {
     return (        
-        <section class="about">
+        <section className="about">
             <AboutHeader />
             {/* <div id = "about-content"> */}
                 <AboutContent />  
