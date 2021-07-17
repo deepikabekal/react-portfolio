@@ -12,9 +12,10 @@ My professional full stack web developer portfolio using React.
 * [Acceptance Criteria](#acceptancecriteria)
 
 ## Deployed App
+https://deepikabekal.github.io/react-portfolio/
 
 ## Screenshot
-<img src="public/images/Budget-Tracker.png" width=650 height = 500>
+<img src="public/images/screenshot.png" width=650 height = 500>
 
 ## Technologies Used
 ### Front-end
