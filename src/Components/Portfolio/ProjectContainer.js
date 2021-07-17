@@ -58,7 +58,7 @@ const ProjectContainer = () => {
     return (
             <>
                 {projectList.map((item) => (
-                    <div class="col mb-4" id="card-box">
+                    <div class="col mb-4" id="card-box" key={item.name}>
                         <div className="card h-100">
                             <a href= {item.webpage} target="_blank">
                                 <img src={require(`../../assets/images/${item.imageName}`).default} className="image img-thumbnail" alt="project example"/>
