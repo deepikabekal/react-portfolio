@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.87b9ca8c.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.841e8d54.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.841e8d54.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.cd0db167.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.cd0db167.js.map",
+    "static/js/2.7b90ff85.chunk.js": "/react-portfolio/static/js/2.7b90ff85.chunk.js",
+    "static/js/2.7b90ff85.chunk.js.map": "/react-portfolio/static/js/2.7b90ff85.chunk.js.map",
+    "static/js/3.5d7cd9f7.chunk.js": "/react-portfolio/static/js/3.5d7cd9f7.chunk.js",
+    "static/js/3.5d7cd9f7.chunk.js.map": "/react-portfolio/static/js/3.5d7cd9f7.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.87b9ca8c.chunk.css.map": "/react-portfolio/static/css/main.87b9ca8c.chunk.css.map",
+    "static/js/2.7b90ff85.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.7b90ff85.chunk.js.LICENSE.txt",
+    "static/media/Horiseon.png": "/react-portfolio/static/media/Horiseon.316abc05.png",
+    "static/media/Weather.png": "/react-portfolio/static/media/Weather.e8df1649.png",
+    "static/media/code-quiz.jpg": "/react-portfolio/static/media/code-quiz.a18567a1.jpg",
+    "static/media/covid-now.jpg": "/react-portfolio/static/media/covid-now.23842335.jpg",
+    "static/media/live-out-doors.png": "/react-portfolio/static/media/live-out-doors.b9faa91e.png",
+    "static/media/photo.jpg": "/react-portfolio/static/media/photo.60c1d8fe.jpg",
+    "static/media/resume.c679c7af.pdf": "/react-portfolio/static/media/resume.c679c7af.pdf",
+    "static/media/scheduler.png": "/react-portfolio/static/media/scheduler.e169473c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cd0db167.js",
+    "static/js/2.7b90ff85.chunk.js",
+    "static/css/main.87b9ca8c.chunk.css",
+    "static/js/main.841e8d54.chunk.js"
+  ]
+}
