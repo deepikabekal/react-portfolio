@@ -52,6 +52,14 @@ const ProjectContainer = () => {
             webpage : "https://vast-retreat-28547.herokuapp.com/",
             github : "https://github.com/luluvann/live-the-outdoors"
         },
+        {
+            name : 'The Community Gallery',
+            description : "An application that will feature unique paintings, sculptures, mosaics, prints, crafts, photographs etc created by the various artists (collaborative project).",
+            tech : "React, Express.js, MongoDB/Mongoose, Node.js, GraphQL, Apollo Server, Apollo Client, Cloudinary Client, JWT, Bcrypt",
+            imageName : 'tcg.png',
+            webpage : "https://cryptic-thicket-25855.herokuapp.com/",
+            github : "https://github.com/deepikabekal/TCG"
+        },
     ];
 
 
